@@ -1,4 +1,5 @@
 body {
+    background-color: #606061;
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-left: auto;
@@ -10,7 +11,6 @@ h1{
 	background-color: #CBBAD9;
 	padding: 10px;
 }
-
 
 button {
     transition: all .5s;
@@ -29,20 +29,6 @@ button:hover {
     background-color: #606061;
 }
 
-/*#botao{
-	border-radius: 5px;
-    width: 1x;
-	height: 6x;
-	background: #606061;
-	transition: width 5s;
-}
-
-#botao:hover{
-    width: 15px;
-    
-}*/
-
-
 #logo-header{
     margin: 6px;
     width: 200px;
@@ -51,6 +37,9 @@ button:hover {
 #centro-distribuicao {
     float: right;
     width: 550px;
+    margin: auto;
+    padding-right: 40px;
+    
 }
 
 #familia-pelho {
@@ -78,7 +67,7 @@ button:hover {
     position: relative;
     width: 500px;
 }
-/*creating line for timeline*/
+
 .main-container::after{
     content: '';
     position: absolute;
@@ -89,7 +78,7 @@ button:hover {
     left: 50%;
     margin-left: -3px;
 }
-/*Adjusting box of all content*/
+
 .text-wrapper{
     padding: 10px 40px;
     position: relative;
@@ -108,31 +97,31 @@ button:hover {
     border-radius: 50%;
     z-index: 1;
 }
-/*for left events*/
+
 .left{
     left: 0;
 }
-/*for right events*/
+
 .right{
     left:50%;
 }
 .right::after{
     left:-10px;
 }
-/*content box colour padding and radius for circular corner*/
+
 .content{
     padding: 15px 15px 15px 17px;
     background-color: #606061;
     border-radius: 4px;
 }
-/*setting text property of event heading*/
+
 .content h3{
     text-transform: uppercase;
     font-size: 14px;
     color: #212121;
     letter-spacing:1px;
 }
-/*setting text property of event content*/
+
 .content p{
     color:  #ffffff;
     font-weight: 300;
